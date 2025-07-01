@@ -5,4 +5,4 @@ JOIN sys.schemas s ON t.schema_id = s.schema_id
 WHERE c.name = 'TenantId'
 ORDER BY s.name, t.name;
 
-//TenantId ini ganti dengan ID yang kira-kira jadi foreign key di tabel lain, ini penting untuk menghapus data permanen
+--TenantId ini ganti dengan ID yang kira-kira jadi foreign key di tabel lain, ini penting untuk menghapus data permanen
