@@ -6,3 +6,20 @@ WHERE c.name = 'TenantId'
 ORDER BY s.name, t.name;
 
 --TenantId ini ganti dengan ID yang kira-kira jadi foreign key di tabel lain, ini penting untuk menghapus data permanen
+-- kalau untuk langsung berdasarkan ID maka pakai query ini
+DECLARE @TenantId INT = 4;
+
+-- Cari semua tabel yang punya kolom TenantId
+DECLARE @sql NVARCHAR(MAX) = N'';
+SELECT @sql += '
+IF EXISTS (SELECT 1 FROM ' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ' WHERE TenantId = ' + CAST(@TenantId AS NVARCHAR) + ')
+    PRINT ''' + s.name + '.' + t.name + ' has data with TenantId=' + CAST(@TenantId AS NVARCHAR) + ''';'
+FROM sys.columns c
+JOIN sys.tables t ON c.object_id = t.object_id
+JOIN sys.schemas s ON t.schema_id = s.schema_id
+WHERE c.name = 'TenantId';
+
+EXEC sp_executesql @sql;
+
+
+-- Jalankan langsung di New Query
