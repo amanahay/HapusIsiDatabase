@@ -11,3 +11,5 @@
 /home/runner/work/HapusIsiDatabase/HapusIsiDatabase/HapusIsiDatabase/obj/Debug/net8.0/refint/HapusIsiDatabase.dll
 /home/runner/work/HapusIsiDatabase/HapusIsiDatabase/HapusIsiDatabase/obj/Debug/net8.0/HapusIsiDatabase.pdb
 /home/runner/work/HapusIsiDatabase/HapusIsiDatabase/HapusIsiDatabase/obj/Debug/net8.0/ref/HapusIsiDatabase.dll
+/home/runner/work/HapusIsiDatabase/HapusIsiDatabase/HapusIsiDatabase/bin/Debug/net8.0/HapusIsiDatabase.runtimeconfig.json
+/home/runner/work/HapusIsiDatabase/HapusIsiDatabase/HapusIsiDatabase/obj/Debug/net8.0/HapusIsiDatabase.genruntimeconfig.cache

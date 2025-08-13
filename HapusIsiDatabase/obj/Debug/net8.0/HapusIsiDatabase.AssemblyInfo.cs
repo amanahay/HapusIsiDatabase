@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HapusIsiDatabase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca3e260a31d683356da5455b46df061ba8944318")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d6f9aab72bd409c2edeb0be78a35f44791d8b80")]
 [assembly: System.Reflection.AssemblyProductAttribute("HapusIsiDatabase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HapusIsiDatabase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
